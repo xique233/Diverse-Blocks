@@ -1,0 +1,50 @@
+{
+	"schemaVersion": 1,
+	"id": "diverse-blocks",
+	"version": "${version}",
+	"name": "Diverse Blocks",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"magpie!"
+	],
+	"contact": {
+		"homepage": "https://github.com/xique233/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/diverse-blocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "magpies.life.DiverseBlocks",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "magpies.life.DiverseBlocksClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "magpies.life.DiverseBlocksDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"diverse-blocks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.4",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.22"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
