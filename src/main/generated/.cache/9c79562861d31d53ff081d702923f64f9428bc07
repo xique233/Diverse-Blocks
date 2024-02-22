@@ -1,0 +1,12 @@
+// 1.20.4	2024-02-22T22:49:26.97532	Diverse Blocks/Model Definitions
+d65c692b0e0823c0822946b00608951d0fc80826 assets\diverse\models\block\dirt_slab_top.json
+f37b0043d6ab167d0d167689fdc39e27e979c425 assets\diverse\models\item\dirt_slab.json
+8626234399552635320a2f3e96b8ee9955f1d36d assets\diverse\models\item\dirt_stairs.json
+52a0ff9f99e2957e3d1ef2830f72f8672fbcb015 assets\diverse\models\block\dirt_stairs_inner.json
+f7b1eb0a1ffb5d1f30e8551c8025d7bc5f7dc226 assets\diverse\blockstates\dirt_stairs.json
+611c57a61378fabfcbe00990eb06784882e631a4 assets\diverse\models\block\dirt_slab.json
+9300bbb5f60291e235f20e41bd3342831f055eb9 assets\diverse\blockstates\dirt_slab.json
+231e5d499785932a985ae132a7e6f2e2626b74a5 assets\minecraft\blockstates\dirt.json
+7baa831eeae6b4e3e340195a646eec308468c8d4 assets\diverse\models\block\dirt_stairs.json
+beb5e7a169b6e1eeb794e79eeb330769ff5f627c assets\diverse\models\block\dirt_stairs_outer.json
+64bb558cf01e78e42b28e2ef3c501f71ee830e6a assets\minecraft\models\block\dirt.json
