@@ -1,1 +1,5 @@
-// 1.20.4	2024-02-22T22:49:26.9773178	Diverse Blocks/Recipes
+// 1.20.4	2024-02-23T00:02:36.8591992	Diverse Blocks/Recipes
+c5840caba03b0882c0c1a496623d2ba7bb588879 data\diverse-blocks\advancements\recipes\misc\dirt_stairs.json
+39a8f4c3bf6030ce628c50ede53fa39bb43ed2b9 data\diverse-blocks\recipes\dirt_slab.json
+77d22fcab4404680f48d922ce0a111b5cd9be647 data\diverse-blocks\advancements\recipes\misc\dirt_slab.json
+840724e3d3f37fedb3ad8ba49dd45fee1c9886d7 data\diverse-blocks\recipes\dirt_stairs.json
