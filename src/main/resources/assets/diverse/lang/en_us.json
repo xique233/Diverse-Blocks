@@ -1,0 +1,93 @@
+{
+  "block.diverse.dirt_slab": "Dirt Slab",
+  "block.diverse.dirt_stairs": "Dirt Stairs",
+
+  "block.diverse.crying_obsidian_slab": "Crying Obsidian Slab",
+  "block.diverse.crying_obsidian_stairs": "Crying Obsidian Stairs",
+
+  "block.diverse.packed_ice_slab": "Packed Ice Slab",
+  "block.diverse.packed_ice_stairs": "Packed Ice Stairs",
+
+  "block.diverse.blue_ice_slab": "Blue Ice Slab",
+  "block.diverse.blue_ice_stairs": "Blue Ice Stairs",
+
+  "block.diverse.calcite_slab": "Calcite Slab",
+  "block.diverse.calcite_stairs": "Calcite Stairs",
+
+  "block.diverse.tuff_slab": "Tuff Slab",
+  "block.diverse.tuff_stairs": "Tuff Stairs",
+
+  "block.diverse.obsidian_slab": "Obsidian Slab",
+  "block.diverse.obsidian_stairs": "Obsidian Stairs",
+
+  "block.diverse.end_stone_slab": "End Stone Slab",
+  "block.diverse.end_stone_stairs": "End Stone Stairs",
+
+  "block.diverse.white_wool_slab": "White Wool Slab",
+  "block.diverse.white_wool_stairs": "White Wool Stairs",
+
+  "block.diverse.honeycomb_block_slab": "Honeycomb Block Slab",
+  "block.diverse.honeycomb_block_stairs": "Honeycomb Block Stairs",
+
+  "block.diverse.amethyst_block_slab": "Amethyst Block Slab",
+  "block.diverse.amethyst_block_stairs": "Amethyst Block Stairs",
+
+  "block.diverse.glowstone_slab": "Glowstone Slab",
+  "block.diverse.glowstone_stairs": "Glowstone Stairs",
+
+
+  "block.diverse.terracotta_slab": "Terracotta Slab",
+  "block.diverse.terracotta_stairs": "Terracotta Stairs",
+  "block.diverse.white_terracotta_slab": "White Terracotta Slab",
+  "block.diverse.white_terracotta_stairs": "White Terracotta Stairs",
+  "block.diverse.orange_terracotta_slab": "Orange Terracotta Slab",
+  "block.diverse.orange_terracotta_stairs": "Orange Terracotta Stairs",
+  "block.diverse.magenta_terracotta_slab": "Magenta Terracotta Slab",
+  "block.diverse.magenta_terracotta_stairs": "Magenta Terracotta Stairs",
+  "block.diverse.light_blue_terracotta_slab": "Light Blue Terracotta Slab",
+  "block.diverse.light_blue_terracotta_stairs": "Light Blue Terracotta Stairs",
+  "block.diverse.yellow_terracotta_slab": "Yellow Terracotta Slab",
+  "block.diverse.yellow_terracotta_stairs": "Yellow Terracotta Stairs",
+  "block.diverse.lime_terracotta_slab": "Lime Terracotta Slab",
+  "block.diverse.lime_terracotta_stairs": "Lime Terracotta Stairs",
+  "block.diverse.pink_terracotta_slab": "Pink Terracotta Slab",
+  "block.diverse.pink_terracotta_stairs": "Pink Terracotta Stairs",
+  "block.diverse.gray_terracotta_slab": "Gray Terracotta Slab",
+  "block.diverse.gray_terracotta_stairs": "Gray Terracotta Stairs",
+  "block.diverse.light_gray_terracotta_slab": "Light Gray Terracotta Slab",
+  "block.diverse.light_gray_terracotta_stairs": "Light Gray Terracotta Stairs",
+  "block.diverse.cyan_terracotta_slab": "Cyan Terracotta Slab",
+  "block.diverse.cyan_terracotta_stairs": "Cyan Terracotta Stairs",
+  "block.diverse.purple_terracotta_slab": "Purple Terracotta Slab",
+  "block.diverse.purple_terracotta_stairs": "Purple Terracotta Stairs",
+  "block.diverse.blue_terracotta_slab": "Blue Terracotta Slab",
+  "block.diverse.blue_terracotta_stairs": "Blue Terracotta Stairs",
+  "block.diverse.brown_terracotta_slab": "Brown Terracotta Slab",
+  "block.diverse.brown_terracotta_stairs": "Brown Terracotta Stairs",
+  "block.diverse.green_terracotta_slab": "Green Terracotta Slab",
+  "block.diverse.green_terracotta_stairs": "Green Terracotta Stairs",
+  "block.diverse.red_terracotta_slab": "Red Terracotta Slab",
+  "block.diverse.red_terracotta_stairs": "Red Terracotta Stairs",
+  "block.diverse.black_terracotta_slab": "Black Terracotta Slab",
+  "block.diverse.black_terracotta_stairs": "Black Terracotta Stairs",
+
+  "block.diverse.glass_slab": "Glass Slab",
+  "block.diverse.white_glass_slab": "White Glass Slab",
+  "block.diverse.orange_glass_slab": "Orange Glass Slab",
+  "block.diverse.magenta_glass_slab": "Magenta Glass Slab",
+  "block.diverse.light_blue_glass_slab": "Light Blue Glass Slab",
+  "block.diverse.yellow_glass_slab": "Yellow Glass Slab",
+  "block.diverse.lime_glass_slab": "Lime Glass Slab",
+  "block.diverse.pink_glass_slab": "Pink Glass Slab",
+  "block.diverse.gray_glass_slab": "Gray Glass Slab",
+  "block.diverse.light_gray_glass_slab": "Light Gray Glass Slab",
+  "block.diverse.cyan_glass_slab": "Cyan Glass Slab",
+  "block.diverse.purple_glass_slab": "Purple Glass Slab",
+  "block.diverse.blue_glass_slab": "Blue Glass Slab",
+  "block.diverse.brown_glass_slab": "Brown Glass Slab",
+  "block.diverse.green_glass_slab": "Green Glass Slab",
+  "block.diverse.red_glass_slab": "Red Glass Slab",
+  "block.diverse.black_glass_slab": "Black Glass Slab",
+
+  "group.diverse.diverse-block": "Diverse Blocks"}
+
