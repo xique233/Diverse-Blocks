@@ -6,6 +6,10 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider
 
 class ModLootTableProvider(dataOutput: FabricDataOutput?) : FabricBlockLootTableProvider(dataOutput) {
     override fun generate() {
+        /*
+        * 杂项类型掉落表
+        *
+        * */
         addDrop(ModBlock.DIRT_STAIRS)
         addDrop(ModBlock.DIRT_SLAB, slabDrops(ModBlock.DIRT_SLAB))
         addDrop(ModBlock.DIRT_WALL)
@@ -38,6 +42,10 @@ class ModLootTableProvider(dataOutput: FabricDataOutput?) : FabricBlockLootTable
         addDrop(ModBlock.END_STONE_SLAB, slabDrops(ModBlock.END_STONE_SLAB))
         addDrop(ModBlock.END_STONE_WALL)
 
+        /*
+        * 陶瓦类型掉落表
+        *
+        * */
         addDrop(ModBlock.TERRACOTTA_STAIRS)
         addDrop(ModBlock.TERRACOTTA_SLAB, slabDrops(ModBlock.TERRACOTTA_SLAB))
         addDrop(ModBlock.TERRACOTTA_WALL)
@@ -120,7 +128,7 @@ class ModLootTableProvider(dataOutput: FabricDataOutput?) : FabricBlockLootTable
 
 
         /*
-        * 羊毛方块
+        * 羊毛类型掉落表
         *
         * */
         addDrop(ModBlock.WHITE_WOOL_STAIRS)
@@ -188,7 +196,7 @@ class ModLootTableProvider(dataOutput: FabricDataOutput?) : FabricBlockLootTable
         addDrop(ModBlock.BLACK_WOOL_WALL)
 
         /*
-        * 玻璃方块
+        * 玻璃类型掉落表
         *
         * */
         addDrop(ModBlock.GLASS_SLAB, slabDrops(ModBlock.GLASS_SLAB))

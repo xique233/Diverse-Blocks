@@ -12,6 +12,11 @@ import net.minecraft.util.Identifier
 
 object ModBlock {
 
+    /*
+    * 杂项方块
+    *
+    * */
+
     val DIRT_SLAB = registerBlocks("dirt_slab", SlabBlock(FabricBlockSettings.copyOf(Blocks.DIRT)))
     val DIRT_STAIRS = registerBlocks("dirt_stairs", StairsBlock(Blocks.DIRT.defaultState,FabricBlockSettings.copyOf(Blocks.DIRT)))
     val DIRT_WALL = registerBlocks("dirt_wall", WallBlock(FabricBlockSettings.copyOf(Blocks.DIRT)))
@@ -49,7 +54,6 @@ object ModBlock {
     val TUFF_STAIRS =
         registerBlocks("tuff_stairs", StairsBlock(Blocks.TUFF.defaultState, FabricBlockSettings.copyOf(Blocks.TUFF)))
     val TUFF_WALL = registerBlocks("tuff_wall", WallBlock(FabricBlockSettings.copyOf(Blocks.TUFF)))
-
 
     val OBSIDIAN_SLAB = registerBlocks("obsidian_slab", SlabBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)))
     val OBSIDIAN_STAIRS = registerBlocks(

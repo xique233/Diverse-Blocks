@@ -9,6 +9,10 @@ import net.minecraft.data.client.ItemModelGenerator
 
 class ModModelsProvider(output: FabricDataOutput?) : FabricModelProvider(output) {
     override fun generateBlockStateModels(blockStateModelGenerator: BlockStateModelGenerator?) {
+        /*
+        * 杂项类型模型
+        *
+        * */
         val dirt = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.DIRT)
         dirt?.slab(ModBlock.DIRT_SLAB)
         dirt?.stairs(ModBlock.DIRT_STAIRS)
@@ -49,6 +53,11 @@ class ModModelsProvider(output: FabricDataOutput?) : FabricModelProvider(output)
         endStone?.stairs(ModBlock.END_STONE_STAIRS)
         endStone?.wall(ModBlock.END_STONE_WALL)
 
+
+        /*
+        * 羊毛类型模型
+        *
+        * */
         val whiteWool = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.WHITE_WOOL)
         whiteWool?.slab(ModBlock.WHITE_WOOL_SLAB)
         whiteWool?.stairs(ModBlock.WHITE_WOOL_STAIRS)
@@ -129,6 +138,10 @@ class ModModelsProvider(output: FabricDataOutput?) : FabricModelProvider(output)
         blackWool?.stairs(ModBlock.BLACK_WOOL_STAIRS)
         blackWool?.wall(ModBlock.BLACK_WOOL_WALL)
 
+        /*
+        * 玻璃类型模型
+        *
+        * */
         val glass = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.GLASS)
         glass?.slab(ModBlock.GLASS_SLAB)
         val whiteGlass = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.WHITE_STAINED_GLASS)
@@ -164,6 +177,10 @@ class ModModelsProvider(output: FabricDataOutput?) : FabricModelProvider(output)
         val blackGlass = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.BLACK_STAINED_GLASS)
         blackGlass?.slab(ModBlock.BLACK_GLASS_SLAB)
 
+        /*
+        * 陶瓦类型模型
+        *
+        * */
         val terracotta = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.TERRACOTTA)
         terracotta?.slab(ModBlock.TERRACOTTA_SLAB)
         terracotta?.stairs(ModBlock.TERRACOTTA_STAIRS)

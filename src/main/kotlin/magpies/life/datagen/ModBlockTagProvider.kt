@@ -12,10 +12,17 @@ class ModBlockTagProvider(
     registriesFuture: CompletableFuture<RegistryWrapper.WrapperLookup>?
 ) : FabricTagProvider.BlockTagProvider(output, registriesFuture) {
     override fun configure(arg: RegistryWrapper.WrapperLookup?) {
+        // 铲子挖掘加速器
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
             .add(ModBlock.DIRT_SLAB)
             .add(ModBlock.DIRT_STAIRS)
+        // 镐子挖掘加速器
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+
+            /*
+            * 杂项类
+            *
+            * */
             .add(ModBlock.CRYING_OBSIDIAN_SLAB)
             .add(ModBlock.CRYING_OBSIDIAN_STAIRS)
 
@@ -97,6 +104,10 @@ class ModBlockTagProvider(
             .add(ModBlock.GLOWSTONE_SLAB)
             .add(ModBlock.GLOWSTONE_STAIRS)
 
+            /*
+            * 羊毛类
+            *
+            * */
             .add(ModBlock.WHITE_WOOL_SLAB)
             .add(ModBlock.WHITE_WOOL_STAIRS)
             .add(ModBlock.ORANGE_WOOL_SLAB)
@@ -130,8 +141,10 @@ class ModBlockTagProvider(
             .add(ModBlock.BLACK_WOOL_SLAB)
             .add(ModBlock.BLACK_WOOL_STAIRS)
 
-
-
+            /*
+            * 玻璃类
+            *
+            * */
             .add(ModBlock.GLASS_SLAB)
             .add(ModBlock.WHITE_GLASS_SLAB)
             .add(ModBlock.ORANGE_GLASS_SLAB)
@@ -149,12 +162,14 @@ class ModBlockTagProvider(
             .add(ModBlock.GREEN_GLASS_SLAB)
             .add(ModBlock.RED_GLASS_SLAB)
             .add(ModBlock.BLACK_GLASS_SLAB)
-
+        // 斧头挖掘加速器
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
             .add(ModBlock.GLASS_SLAB)
+        // 锄头挖掘加速器
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
             .add(ModBlock.WHITE_WOOL_SLAB)
             .add(ModBlock.WHITE_WOOL_STAIRS)
+        // 墙类注册
         getOrCreateTagBuilder(BlockTags.WALLS)
             .add(ModBlock.DIRT_WALL)
             .add(ModBlock.PACKED_ICE_WALL)

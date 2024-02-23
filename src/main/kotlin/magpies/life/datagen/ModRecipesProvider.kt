@@ -15,7 +15,11 @@ import net.minecraft.util.Identifier
 
 class ModRecipesProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
     override fun generate(exporter: RecipeExporter) {
-        // 泥土
+
+        /*
+        * 杂项类型合成表
+        *
+        * */
         slabSynthesis(exporter, "dirt_slab", ModBlock.DIRT_SLAB, Blocks.DIRT, Items.DIRT)
         stairsSynthesis(exporter, "dirt_stairs", ModBlock.DIRT_STAIRS, Blocks.DIRT, Items.DIRT)
         wallSynthesis(exporter, "dirt_wall", ModBlock.DIRT_WALL, Blocks.DIRT, Items.DIRT)
@@ -66,6 +70,10 @@ class ModRecipesProvider(output: FabricDataOutput) : FabricRecipeProvider(output
         stairsSynthesis(exporter, "end_stone_stairs", ModBlock.END_STONE_STAIRS, Blocks.END_STONE, Items.END_STONE)
         wallSynthesis(exporter, "end_stone_wall", ModBlock.END_STONE_WALL, Blocks.END_STONE, Items.END_STONE)
 
+        /*
+        * 羊毛类型合成表
+        *
+        * */
         slabSynthesis(exporter, "white_wool_slab", ModBlock.WHITE_WOOL_SLAB, Blocks.WHITE_WOOL, Items.WHITE_WOOL)
         stairsSynthesis(exporter, "white_wool_stairs", ModBlock.WHITE_WOOL_STAIRS, Blocks.WHITE_WOOL, Items.WHITE_WOOL)
         wallSynthesis(exporter, "white_wool_wall", ModBlock.WHITE_WOOL_WALL, Blocks.WHITE_WOOL, Items.WHITE_WOOL)
@@ -138,6 +146,11 @@ class ModRecipesProvider(output: FabricDataOutput) : FabricRecipeProvider(output
         stairsSynthesis(exporter, "black_wool_stairs", ModBlock.BLACK_WOOL_STAIRS, Blocks.BLACK_WOOL, Items.BLACK_WOOL)
         wallSynthesis(exporter, "black_wool_wall", ModBlock.BLACK_WOOL_WALL, Blocks.BLACK_WOOL, Items.BLACK_WOOL)
 
+
+        /*
+        * 玻璃类型合成表
+        *
+        * */
         slabSynthesis(exporter, "glass_slab", ModBlock.GLASS_SLAB, Blocks.GLASS, Items.GLASS)
         slabSynthesis(exporter, "white_glass_stairs", ModBlock.WHITE_GLASS_SLAB, Blocks.WHITE_STAINED_GLASS, Items.WHITE_STAINED_GLASS)
         slabSynthesis(exporter, "orange_glass_stairs", ModBlock.ORANGE_GLASS_SLAB, Blocks.ORANGE_STAINED_GLASS, Items.ORANGE_STAINED_GLASS)
@@ -159,6 +172,12 @@ class ModRecipesProvider(output: FabricDataOutput) : FabricRecipeProvider(output
         slabSynthesis(exporter, "terracotta_slab", ModBlock.TERRACOTTA_SLAB, Blocks.TERRACOTTA, Items.TERRACOTTA)
         stairsSynthesis(exporter, "terracotta_stairs", ModBlock.TERRACOTTA_STAIRS, Blocks.TERRACOTTA, Items.TERRACOTTA)
         wallSynthesis(exporter, "terracotta_wall", ModBlock.TERRACOTTA_WALL, Blocks.TERRACOTTA, Items.TERRACOTTA)
+
+        /*
+        * 陶瓦类型合成表
+        *
+        * */
+
 
         slabSynthesis(exporter, "white_terracotta_slab", ModBlock.WHITE_TERRACOTTA_SLAB, Blocks.WHITE_TERRACOTTA, Items.WHITE_TERRACOTTA)
         stairsSynthesis(exporter, "white_terracotta_stairs", ModBlock.WHITE_TERRACOTTA_STAIRS, Blocks.WHITE_TERRACOTTA, Items.WHITE_TERRACOTTA)
