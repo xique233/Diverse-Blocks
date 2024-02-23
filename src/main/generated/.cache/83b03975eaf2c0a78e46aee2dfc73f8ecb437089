@@ -1,4 +1,4 @@
-// 1.20.4	2024-02-24T00:06:03.9851706	Diverse Blocks/Block Loot Tables
+// 1.20.4	2024-02-24T00:46:22.3410723	Diverse Blocks/Block Loot Tables
 8c30467127a5b96e5d8fe35617c001e0fe3b8358 data\diverse\loot_tables\blocks\honeycomb_block_slab.json
 01437b9553d36687c505246f1e12a2cbf1073e2a data\diverse\loot_tables\blocks\calcite_stairs.json
 5039afc81c4de8410f0f21b6feab0b58774f0eca data\diverse\loot_tables\blocks\cyan_wool_stairs.json
@@ -13,8 +13,8 @@ fa5a194f76c65331d256f2d769e96d5eaeb86112 data\diverse\loot_tables\blocks\red_ter
 f13531e17bd679dfb4d74b3e285fec07c78d7396 data\diverse\loot_tables\blocks\lime_terracotta_wall.json
 1695889420c3665e3c219aec17d8f2d1b7e659d4 data\diverse\loot_tables\blocks\light_blue_wool_wall.json
 d83295d2af916c638949df2441b4495c6c45ac7b data\diverse\loot_tables\blocks\purple_wool_wall.json
-5af668f262de29c0d57e0e1cf7cd1c83c2b8eb26 data\diverse\loot_tables\blocks\yellow_terracotta_stairs.json
 f4d0ba308f30851cfdc64bd354a78cb7ed794443 data\diverse\loot_tables\blocks\purple_wool_stairs.json
+5af668f262de29c0d57e0e1cf7cd1c83c2b8eb26 data\diverse\loot_tables\blocks\yellow_terracotta_stairs.json
 964ba27ab43d2f9163870e9746632e61482d1172 data\diverse\loot_tables\blocks\brown_wool_stairs.json
 974b852a75e8c0ba2174a466ccae28a76035ba7e data\diverse\loot_tables\blocks\green_terracotta_wall.json
 38cbacd52e62229d4daa80fbace7336e8c448a01 data\diverse\loot_tables\blocks\red_glass_slab.json
@@ -54,8 +54,8 @@ e75934a87531a8ce6894ecd670f7b8512f10f796 data\diverse\loot_tables\blocks\black_t
 60b63f4f8df3ee302c54925ee0d6303c4ef64835 data\diverse\loot_tables\blocks\green_glass_slab.json
 2d90ac8bf6e3b082dbaae51547c36a8fac5ef699 data\diverse\loot_tables\blocks\purple_glass_slab.json
 cc1a24e1273b02f33af6e8befe926050e2c577f0 data\diverse\loot_tables\blocks\red_terracotta_wall.json
-a383904617dbd00689eaccdd21b141be9ba55281 data\diverse\loot_tables\blocks\yellow_terracotta_wall.json
 b550288c26af42032654e7dc8229fffa57e6fa73 data\diverse\loot_tables\blocks\light_gray_terracotta_stairs.json
+a383904617dbd00689eaccdd21b141be9ba55281 data\diverse\loot_tables\blocks\yellow_terracotta_wall.json
 9e7cc4045c953a6f9cefc99e7f63f3aa576643c4 data\diverse\loot_tables\blocks\honeycomb_block_stairs.json
 7a0dc3c86cf81f2728951588a1ffa76548cf80b5 data\diverse\loot_tables\blocks\end_stone_stairs.json
 97c1f2a076fce000eca3f8e2a31db46ead1d9a00 data\diverse\loot_tables\blocks\gray_terracotta_slab.json

@@ -172,6 +172,7 @@ class ModBlockTagProvider(
         // 墙类注册
         getOrCreateTagBuilder(BlockTags.WALLS)
             .add(ModBlock.DIRT_WALL)
+            .add(ModBlock.CRYING_OBSIDIAN_WALL)
             .add(ModBlock.PACKED_ICE_WALL)
             .add(ModBlock.BLUE_ICE_WALL)
             .add(ModBlock.CALCITE_WALL)
