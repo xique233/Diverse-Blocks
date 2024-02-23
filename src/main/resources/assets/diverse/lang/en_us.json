@@ -26,6 +26,37 @@
   "block.diverse.white_wool_slab": "White Wool Slab",
   "block.diverse.white_wool_stairs": "White Wool Stairs",
 
+  "block.diverse.orange_wool_slab": "Orange Wool Slab",
+  "block.diverse.orange_wool_stairs": "Orange Wool Stairs",
+  "block.diverse.magenta_wool_slab": "Magenta Wool Slab",
+  "block.diverse.magenta_wool_stairs": "Magenta Wool Stairs",
+  "block.diverse.light_blue_wool_slab": "Light Blue Wool Slab",
+  "block.diverse.light_blue_wool_stairs": "Light Blue Wool Stairs",
+  "block.diverse.yellow_wool_slab": "Yellow Wool Slab",
+  "block.diverse.yellow_wool_stairs": "Yellow Wool Stairs",
+  "block.diverse.lime_wool_slab": "Lime Wool Slab",
+  "block.diverse.lime_wool_stairs": "Lime Wool Stairs",
+  "block.diverse.pink_wool_slab": "Pink Wool Slab",
+  "block.diverse.pink_wool_stairs": "Pink Wool Stairs",
+  "block.diverse.gray_wool_slab": "Gray Wool Slab",
+  "block.diverse.gray_wool_stairs": "Gray Wool Stairs",
+  "block.diverse.light_gray_wool_slab": "Light Gray Wool Slab",
+  "block.diverse.light_gray_wool_stairs": "Light Gray Wool Stairs",
+  "block.diverse.cyan_wool_slab": "Cyan Wool Slab",
+  "block.diverse.cyan_wool_stairs": "Cyan Wool Stairs",
+  "block.diverse.purple_wool_slab": "Purple Wool Slab",
+  "block.diverse.purple_wool_stairs": "Purple Wool Stairs",
+  "block.diverse.blue_wool_slab": "Blue Wool Slab",
+  "block.diverse.blue_wool_stairs": "Blue Wool Stairs",
+  "block.diverse.brown_wool_slab": "Brown Wool Slab",
+  "block.diverse.brown_wool_stairs": "Brown Wool Stairs",
+  "block.diverse.green_wool_slab": "Green Wool Slab",
+  "block.diverse.green_wool_stairs": "Green Wool Stairs",
+  "block.diverse.red_wool_slab": "Red Wool Slab",
+  "block.diverse.red_wool_stairs": "Red Wool Stairs",
+  "block.diverse.black_wool_slab": "Black Wool Slab",
+  "block.diverse.black_wool_stairs": "Black Wool Stairs",
+
   "block.diverse.honeycomb_block_slab": "Honeycomb Block Slab",
   "block.diverse.honeycomb_block_stairs": "Honeycomb Block Stairs",
 
@@ -34,6 +65,9 @@
 
   "block.diverse.glowstone_slab": "Glowstone Slab",
   "block.diverse.glowstone_stairs": "Glowstone Stairs",
+
+  "block.diverse.magma_block_slab": "Magma Block Slab",
+  "block.diverse.magma_block_stairs": "Magma Block Stairs",
 
 
   "block.diverse.terracotta_slab": "Terracotta Slab",

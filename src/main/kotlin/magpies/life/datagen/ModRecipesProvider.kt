@@ -35,6 +35,7 @@ class ModRecipesProvider(output: FabricDataOutput) : FabricRecipeProvider(output
 
         slabSynthesis(exporter, "packed_ice_slab", ModBlock.PACKED_ICE_SLAB, Blocks.PACKED_ICE, Items.PACKED_ICE)
         stairsSynthesis(exporter, "packed_ice_stairs", ModBlock.PACKED_ICE_STAIRS, Blocks.PACKED_ICE, Items.PACKED_ICE)
+//        wallSynthesis(exporter, "packed_ice_wall", ModBlock.PACKED_ICE_WALL, Blocks.PACKED_ICE, Items.PACKED_ICE)
 
         slabSynthesis(exporter, "blue_ice_slab", ModBlock.BLUE_ICE_SLAB, Blocks.BLUE_ICE, Items.BLUE_ICE)
         stairsSynthesis(exporter, "blue_ice_stairs", ModBlock.BLUE_ICE_STAIRS, Blocks.BLUE_ICE, Items.BLUE_ICE)
@@ -53,6 +54,48 @@ class ModRecipesProvider(output: FabricDataOutput) : FabricRecipeProvider(output
 
         slabSynthesis(exporter, "white_wool_slab", ModBlock.WHITE_WOOL_SLAB, Blocks.WHITE_WOOL, Items.WHITE_WOOL)
         stairsSynthesis(exporter, "white_wool_stairs", ModBlock.WHITE_WOOL_STAIRS, Blocks.WHITE_WOOL, Items.WHITE_WOOL)
+
+        slabSynthesis(exporter, "yellow_wool_slab", ModBlock.YELLOW_WOOL_SLAB, Blocks.YELLOW_WOOL, Items.YELLOW_WOOL)
+        stairsSynthesis(exporter, "yellow_wool_stairs", ModBlock.YELLOW_WOOL_STAIRS, Blocks.YELLOW_WOOL, Items.YELLOW_WOOL)
+
+        slabSynthesis(exporter, "lime_wool_slab", ModBlock.LIME_WOOL_SLAB, Blocks.LIME_WOOL, Items.LIME_WOOL)
+        stairsSynthesis(exporter, "lime_wool_stairs", ModBlock.LIME_WOOL_STAIRS, Blocks.LIME_WOOL, Items.LIME_WOOL)
+
+        slabSynthesis(exporter, "pink_wool_slab", ModBlock.PINK_WOOL_SLAB, Blocks.PINK_WOOL, Items.PINK_WOOL)
+        stairsSynthesis(exporter, "pink_wool_stairs", ModBlock.PINK_WOOL_STAIRS, Blocks.PINK_WOOL, Items.PINK_WOOL)
+
+        slabSynthesis(exporter, "gray_wool_slab", ModBlock.GRAY_WOOL_SLAB, Blocks.GRAY_WOOL, Items.GRAY_WOOL)
+        stairsSynthesis(exporter, "gray_wool_stairs", ModBlock.GRAY_WOOL_STAIRS, Blocks.GRAY_WOOL, Items.GRAY_WOOL)
+
+        slabSynthesis(exporter, "orange_wool_slab", ModBlock.ORANGE_WOOL_SLAB, Blocks.ORANGE_WOOL, Items.ORANGE_WOOL)
+        stairsSynthesis(exporter, "orange_wool_stairs", ModBlock.ORANGE_WOOL_STAIRS, Blocks.ORANGE_WOOL, Items.ORANGE_WOOL)
+
+        slabSynthesis(exporter, "magenta_wool_slab", ModBlock.MAGENTA_WOOL_SLAB, Blocks.MAGENTA_WOOL, Items.MAGENTA_WOOL)
+        stairsSynthesis(exporter, "magenta_wool_stairs", ModBlock.MAGENTA_WOOL_STAIRS, Blocks.MAGENTA_WOOL, Items.MAGENTA_WOOL)
+
+        slabSynthesis(exporter, "light_blue_wool_slab", ModBlock.LIGHT_BLUE_WOOL_SLAB, Blocks.LIGHT_BLUE_WOOL, Items.LIGHT_BLUE_WOOL)
+        stairsSynthesis(exporter, "light_blue_wool_stairs", ModBlock.LIGHT_BLUE_WOOL_STAIRS, Blocks.LIGHT_BLUE_WOOL, Items.LIGHT_BLUE_WOOL)
+
+        slabSynthesis(exporter, "cyan_wool_slab", ModBlock.CYAN_WOOL_SLAB, Blocks.CYAN_WOOL, Items.CYAN_WOOL)
+        stairsSynthesis(exporter, "cyan_wool_stairs", ModBlock.CYAN_WOOL_STAIRS, Blocks.CYAN_WOOL, Items.CYAN_WOOL)
+
+        slabSynthesis(exporter, "purple_wool_slab", ModBlock.PURPLE_WOOL_SLAB, Blocks.PURPLE_WOOL, Items.PURPLE_WOOL)
+        stairsSynthesis(exporter, "purple_wool_stairs", ModBlock.PURPLE_WOOL_STAIRS, Blocks.PURPLE_WOOL, Items.PURPLE_WOOL)
+
+        slabSynthesis(exporter, "blue_wool_slab", ModBlock.BLUE_WOOL_SLAB, Blocks.BLUE_WOOL, Items.BLUE_WOOL)
+        stairsSynthesis(exporter, "blue_wool_stairs", ModBlock.BLUE_WOOL_STAIRS, Blocks.BLUE_WOOL, Items.BLUE_WOOL)
+
+        slabSynthesis(exporter, "brown_wool_slab", ModBlock.BROWN_WOOL_SLAB, Blocks.BROWN_WOOL, Items.BROWN_WOOL)
+        stairsSynthesis(exporter, "brown_wool_stairs", ModBlock.BROWN_WOOL_STAIRS, Blocks.BROWN_WOOL, Items.BROWN_WOOL)
+
+        slabSynthesis(exporter, "green_wool_slab", ModBlock.GREEN_WOOL_SLAB, Blocks.GREEN_WOOL, Items.GREEN_WOOL)
+        stairsSynthesis(exporter, "green_wool_stairs", ModBlock.GREEN_WOOL_STAIRS, Blocks.GREEN_WOOL, Items.GREEN_WOOL)
+
+        slabSynthesis(exporter, "red_wool_slab", ModBlock.RED_WOOL_SLAB, Blocks.RED_WOOL, Items.RED_WOOL)
+        stairsSynthesis(exporter, "red_wool_stairs", ModBlock.RED_WOOL_STAIRS, Blocks.RED_WOOL, Items.RED_WOOL)
+
+        slabSynthesis(exporter, "black_wool_slab", ModBlock.BLACK_WOOL_SLAB, Blocks.BLACK_WOOL, Items.BLACK_WOOL)
+        stairsSynthesis(exporter, "black_wool_stairs", ModBlock.BLACK_WOOL_STAIRS, Blocks.BLACK_WOOL, Items.BLACK_WOOL)
 
         slabSynthesis(exporter, "glass_slab", ModBlock.GLASS_SLAB, Blocks.GLASS, Items.GLASS)
         slabSynthesis(exporter, "white_glass_stairs", ModBlock.WHITE_GLASS_SLAB, Blocks.WHITE_STAINED_GLASS, Items.WHITE_STAINED_GLASS)
@@ -125,6 +168,10 @@ class ModRecipesProvider(output: FabricDataOutput) : FabricRecipeProvider(output
 
         slabSynthesis(exporter, "glowstone_slab", ModBlock.GLOWSTONE_SLAB, Blocks.GLOWSTONE, Items.GLOWSTONE)
         stairsSynthesis(exporter, "glowstone_stairs", ModBlock.GLOWSTONE_STAIRS, Blocks.GLOWSTONE, Items.GLOWSTONE)
+
+        stairsSynthesis(exporter, "redstone_lamp_stairs", Blocks.REDSTONE_LAMP, Blocks.REDSTONE_LAMP, Items.REDSTONE_LAMP)
+        slabSynthesis(exporter, "redstone_lamp_slab", Blocks.REDSTONE_LAMP, Blocks.REDSTONE_LAMP, Items.REDSTONE_LAMP)
+
     }
 
     private fun stairsSynthesis(
@@ -142,7 +189,21 @@ class ModRecipesProvider(output: FabricDataOutput) : FabricRecipeProvider(output
             .criterion(hasItem(blockMaterials), conditionsFromItem(blockMaterials))
             .offerTo(exporter, Identifier(DiverseBlocks.MOD_ID, name))
     }
-
+   /* private fun wallSynthesis(
+        exporter: RecipeExporter,
+        name: String,
+        result: Block,
+        blockMaterials: Block,
+        itemMaterials: Item
+    ) {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, result, 6)
+            .pattern("###")
+            .pattern("###")
+            .input('#', itemMaterials)
+            .criterion(hasItem(blockMaterials), conditionsFromItem(blockMaterials))
+            .offerTo(exporter, Identifier(DiverseBlocks.MOD_ID, name))
+    }
+*/
 
     private fun slabSynthesis(
         exporter: RecipeExporter,
