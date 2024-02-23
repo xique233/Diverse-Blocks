@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_redstone_lamp": {
+    "has_terracotta": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:redstone_lamp"
+              "minecraft:terracotta"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "diverse:redstone_lamp_slab"
+        "recipe": "diverse:terracotta_wall"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_redstone_lamp"
+      "has_terracotta"
     ]
   ],
   "rewards": {
     "recipes": [
-      "diverse:redstone_lamp_slab"
+      "diverse:terracotta_wall"
     ]
   }
 }

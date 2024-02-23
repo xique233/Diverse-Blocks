@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_redstone_lamp": {
+    "has_packed_ice": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:redstone_lamp"
+              "minecraft:packed_ice"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "diverse:redstone_lamp_stairs"
+        "recipe": "diverse:packed_ice_wall"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_redstone_lamp"
+      "has_packed_ice"
     ]
   ],
   "rewards": {
     "recipes": [
-      "diverse:redstone_lamp_stairs"
+      "diverse:packed_ice_wall"
     ]
   }
 }

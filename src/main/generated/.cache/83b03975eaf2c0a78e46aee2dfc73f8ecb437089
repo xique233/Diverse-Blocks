@@ -1,4 +1,4 @@
-// 1.20.4	2024-02-23T23:44:13.8994113	Diverse Blocks/Block Loot Tables
+// 1.20.4	2024-02-24T00:06:03.9851706	Diverse Blocks/Block Loot Tables
 8c30467127a5b96e5d8fe35617c001e0fe3b8358 data\diverse\loot_tables\blocks\honeycomb_block_slab.json
 01437b9553d36687c505246f1e12a2cbf1073e2a data\diverse\loot_tables\blocks\calcite_stairs.json
 5039afc81c4de8410f0f21b6feab0b58774f0eca data\diverse\loot_tables\blocks\cyan_wool_stairs.json
@@ -77,8 +77,8 @@ c6bf633c1abc52bc2bd6b60bd9efe23db985f249 data\diverse\loot_tables\blocks\dirt_wa
 0a70f642bcb9750720ed21dc0c070f3d63a88e2e data\diverse\loot_tables\blocks\amethyst_block_stairs.json
 b7f6c655471bd260ea06a15afa9b5dd2e59460f7 data\diverse\loot_tables\blocks\white_glass_slab.json
 2ba20a9d1d7971f1019a06efeb46727bf798a61e data\diverse\loot_tables\blocks\light_gray_terracotta_wall.json
-99f885bd368053d34ee4e86f386497dd04593c2e data\diverse\loot_tables\blocks\purple_terracotta_slab.json
 1e7c9f1acc615ba633fbd8a72d360317f2a5b7bd data\diverse\loot_tables\blocks\terracotta_slab.json
+99f885bd368053d34ee4e86f386497dd04593c2e data\diverse\loot_tables\blocks\purple_terracotta_slab.json
 545bd59174f2b06c8cab6335a8e9d698166c5a9d data\diverse\loot_tables\blocks\amethyst_block_wall.json
 980234e6a6a6babb10ebb2fefc7da1e6014ea12f data\diverse\loot_tables\blocks\crying_obsidian_wall.json
 8c545a581fcc8c6c0a776e4e3484989cec439622 data\diverse\loot_tables\blocks\cyan_terracotta_wall.json
