@@ -3,15 +3,15 @@
 	"id": "diverse-blocks",
 	"version": "${version}",
 	"name": "Diverse Blocks",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "只是简单的添加了一些方块",
 	"authors": [
 		"magpie!"
 	],
 	"contact": {
 		"homepage": "https://github.com/xique233/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/xique233/Diverse-Blocks"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/diverse/icon.png",
 	"environment": "*",
 	"entrypoints": {
