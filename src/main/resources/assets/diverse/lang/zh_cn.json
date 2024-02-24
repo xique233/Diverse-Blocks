@@ -151,6 +151,11 @@
   "block.diverse.green_glass_slab": "绿色玻璃台阶",
   "block.diverse.red_glass_slab": "红色玻璃台阶",
   "block.diverse.black_glass_slab": "黑色玻璃台阶",
+  "block.diverse.smooth_quartz_wall": "平滑石英墙",
+  "block.diverse.dark_prismarine_wall": "暗海晶石墙",
+  "block.diverse.purpur_block_wall": "紫珀墙",
+  "block.diverse.prismarine_bricks_wall": "海晶石墙",
+
 
   "group.diverse.diverse-block": "多样的方块"
 }

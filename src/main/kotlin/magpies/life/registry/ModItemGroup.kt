@@ -222,6 +222,11 @@ object ModItemGroup {
                 entries.add(ModBlock.GREEN_GLASS_SLAB)
                 entries.add(ModBlock.RED_GLASS_SLAB)
                 entries.add(ModBlock.BLACK_GLASS_SLAB)
+
+                entries.add(ModBlock.SMOOTH_QUARTZ_WALL)
+                entries.add(ModBlock.PURPUR_BLOCK_WALL)
+                entries.add(ModBlock.PRISMARINE_BRICKS_WALL)
+                entries.add(ModBlock.DARK_PRISMARINE_WALL)
             })
             .build()
     )

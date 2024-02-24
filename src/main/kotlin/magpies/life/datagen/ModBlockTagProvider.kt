@@ -104,6 +104,7 @@ class ModBlockTagProvider(
             .add(ModBlock.GLOWSTONE_SLAB)
             .add(ModBlock.GLOWSTONE_STAIRS)
 
+
             /*
             * 羊毛类
             *
@@ -215,6 +216,10 @@ class ModBlockTagProvider(
             .add(ModBlock.GREEN_WOOL_WALL)
             .add(ModBlock.RED_WOOL_WALL)
             .add(ModBlock.BLACK_WOOL_WALL)
+            .add(ModBlock.SMOOTH_QUARTZ_WALL)
+            .add(ModBlock.DARK_PRISMARINE_WALL)
+            .add(ModBlock.PURPUR_BLOCK_WALL)
+            .add(ModBlock.PRISMARINE_BRICKS_WALL)
     }
 
 }

@@ -126,6 +126,10 @@ class ModLootTableProvider(dataOutput: FabricDataOutput?) : FabricBlockLootTable
         addDrop(ModBlock.GLOWSTONE_SLAB, slabDrops(ModBlock.GLOWSTONE_SLAB))
         addDrop(ModBlock.GLOWSTONE_WALL)
 
+        addDrop(ModBlock.SMOOTH_QUARTZ_WALL)
+        addDrop(ModBlock.DARK_PRISMARINE_WALL)
+        addDrop(ModBlock.PURPUR_BLOCK_WALL)
+        addDrop(ModBlock.PRISMARINE_BRICKS_WALL)
 
         /*
         * 羊毛类型掉落表

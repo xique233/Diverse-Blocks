@@ -178,7 +178,6 @@ class ModRecipesProvider(output: FabricDataOutput) : FabricRecipeProvider(output
         *
         * */
 
-
         slabSynthesis(exporter, "white_terracotta_slab", ModBlock.WHITE_TERRACOTTA_SLAB, Blocks.WHITE_TERRACOTTA, Items.WHITE_TERRACOTTA)
         stairsSynthesis(exporter, "white_terracotta_stairs", ModBlock.WHITE_TERRACOTTA_STAIRS, Blocks.WHITE_TERRACOTTA, Items.WHITE_TERRACOTTA)
         wallSynthesis(
@@ -343,6 +342,34 @@ class ModRecipesProvider(output: FabricDataOutput) : FabricRecipeProvider(output
         stairsSynthesis(exporter, "glowstone_stairs", ModBlock.GLOWSTONE_STAIRS, Blocks.GLOWSTONE, Items.GLOWSTONE)
         wallSynthesis(exporter, "glowstone_wall", ModBlock.GLOWSTONE_WALL, Blocks.GLOWSTONE, Items.GLOWSTONE)
 
+        wallSynthesis(
+            exporter,
+            "smooth_quartz_stairs_wall",
+            ModBlock.SMOOTH_QUARTZ_WALL,
+            Blocks.SMOOTH_QUARTZ,
+            Items.SMOOTH_QUARTZ
+        )
+        wallSynthesis(
+            exporter,
+            "prismarine_bricks_wall",
+            ModBlock.PRISMARINE_BRICKS_WALL,
+            Blocks.PRISMARINE_BRICKS,
+            Items.PRISMARINE_BRICKS
+        )
+        wallSynthesis(
+            exporter,
+            "purpur_block_wall",
+            ModBlock.PURPUR_BLOCK_WALL,
+            Blocks.PURPUR_BLOCK,
+            Items.PURPUR_BLOCK
+        )
+        wallSynthesis(
+            exporter,
+            "dark_prismarine_wall",
+            ModBlock.DARK_PRISMARINE_WALL,
+            Blocks.DARK_PRISMARINE,
+            Items.DARK_PRISMARINE
+        )
     }
 
     private fun stairsSynthesis(

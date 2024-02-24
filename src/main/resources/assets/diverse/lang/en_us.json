@@ -151,5 +151,11 @@
   "block.diverse.green_glass_slab": "Green Glass Slab",
   "block.diverse.red_glass_slab": "Red Glass Slab",
   "block.diverse.black_glass_slab": "Black Glass Slab",
+  "block.diverse.smooth_quartz_wall": "Smooth Quarz Wall",
+  "block.diverse.dark_prismarine_wall": "Dark Prismarine Wall",
+  "block.diverse.purpur_block_wall": "Purpur Block Wall",
+  "block.diverse.prismarine_bricks_wall": "Prismarine Bricks Wall",
+
+
   "group.diverse.diverse-block": "Diverse Blocks"
 }

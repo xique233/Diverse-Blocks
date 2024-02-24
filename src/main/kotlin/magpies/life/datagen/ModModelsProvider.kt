@@ -138,6 +138,17 @@ class ModModelsProvider(output: FabricDataOutput?) : FabricModelProvider(output)
         blackWool?.stairs(ModBlock.BLACK_WOOL_STAIRS)
         blackWool?.wall(ModBlock.BLACK_WOOL_WALL)
 
+        val smoothQuartzWall = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.SMOOTH_QUARTZ)
+        smoothQuartzWall?.wall(ModBlock.SMOOTH_QUARTZ_WALL)
+
+        val prismarineWall = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.PRISMARINE_BRICKS)
+        prismarineWall?.wall(ModBlock.PRISMARINE_BRICKS_WALL)
+
+        val purpurWall = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.PURPUR_BLOCK)
+        purpurWall?.wall(ModBlock.PURPUR_BLOCK_WALL)
+
+        val darkPrismarineWall = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.DARK_PRISMARINE)
+        darkPrismarineWall?.wall(ModBlock.DARK_PRISMARINE_WALL)
         /*
         * 玻璃类型模型
         *

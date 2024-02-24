@@ -69,6 +69,17 @@ object ModBlock {
     )
     val END_STONE_WALL = registerBlocks("end_stone_wall", WallBlock(FabricBlockSettings.copyOf(Blocks.END_STONE)))
 
+    val SMOOTH_QUARTZ_WALL =
+        registerBlocks("smooth_quartz_wall", WallBlock(FabricBlockSettings.copyOf(Blocks.SMOOTH_QUARTZ)))
+
+    val PRISMARINE_BRICKS_WALL =
+        registerBlocks("prismarine_bricks_wall", WallBlock(FabricBlockSettings.copyOf(Blocks.PRISMARINE_BRICKS)))
+
+    val PURPUR_BLOCK_WALL =
+        registerBlocks("purpur_block_wall", WallBlock(FabricBlockSettings.copyOf(Blocks.PURPUR_BLOCK)))
+
+    val DARK_PRISMARINE_WALL =
+        registerBlocks("dark_prismarine_wall", WallBlock(FabricBlockSettings.copyOf(Blocks.DARK_PRISMARINE)))
 
     /*
     * 陶瓦方块
