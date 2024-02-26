@@ -48,6 +48,22 @@
     "diverse:smooth_quartz_wall",
     "diverse:dark_prismarine_wall",
     "diverse:purpur_block_wall",
-    "diverse:prismarine_bricks_wall"
+    "diverse:prismarine_bricks_wall",
+    "diverse:white_concrete_wall",
+    "diverse:orange_concrete_wall",
+    "diverse:magenta_concrete_wall",
+    "diverse:light_blue_concrete_wall",
+    "diverse:yellow_concrete_wall",
+    "diverse:lime_concrete_wall",
+    "diverse:pink_concrete_wall",
+    "diverse:gray_concrete_wall",
+    "diverse:light_gray_concrete_wall",
+    "diverse:cyan_concrete_wall",
+    "diverse:purple_concrete_wall",
+    "diverse:blue_concrete_wall",
+    "diverse:brown_concrete_wall",
+    "diverse:green_concrete_wall",
+    "diverse:red_concrete_wall",
+    "diverse:black_concrete_wall"
   ]
 }

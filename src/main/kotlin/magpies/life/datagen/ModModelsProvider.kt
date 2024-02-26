@@ -138,6 +138,100 @@ class ModModelsProvider(output: FabricDataOutput?) : FabricModelProvider(output)
         blackWool?.stairs(ModBlock.BLACK_WOOL_STAIRS)
         blackWool?.wall(ModBlock.BLACK_WOOL_WALL)
 
+
+        /*
+        * 混凝土方块
+        *
+        * */
+        val whiteConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.WHITE_CONCRETE)
+        whiteConcrete?.slab(ModBlock.WHITE_CONCRETE_SLAB)
+        whiteConcrete?.stairs(ModBlock.WHITE_CONCRETE_STAIRS)
+        whiteConcrete?.wall(ModBlock.WHITE_CONCRETE_WALL)
+
+        val orangeConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.ORANGE_CONCRETE)
+        orangeConcrete?.slab(ModBlock.ORANGE_CONCRETE_SLAB)
+        orangeConcrete?.stairs(ModBlock.ORANGE_CONCRETE_STAIRS)
+        orangeConcrete?.wall(ModBlock.ORANGE_CONCRETE_WALL)
+
+        val pinkConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.PINK_CONCRETE)
+        pinkConcrete?.slab(ModBlock.PINK_CONCRETE_SLAB)
+        pinkConcrete?.stairs(ModBlock.PINK_CONCRETE_STAIRS)
+        pinkConcrete?.wall(ModBlock.PINK_CONCRETE_WALL)
+
+        val grayConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.GRAY_CONCRETE)
+        grayConcrete?.slab(ModBlock.GRAY_CONCRETE_SLAB)
+        grayConcrete?.stairs(ModBlock.GRAY_CONCRETE_STAIRS)
+        grayConcrete?.wall(ModBlock.GRAY_CONCRETE_WALL)
+
+        val lightGrayConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.LIGHT_GRAY_CONCRETE)
+        lightGrayConcrete?.slab(ModBlock.LIGHT_GRAY_CONCRETE_SLAB)
+        lightGrayConcrete?.stairs(ModBlock.LIGHT_GRAY_CONCRETE_STAIRS)
+        lightGrayConcrete?.wall(ModBlock.LIGHT_GRAY_CONCRETE_WALL)
+
+        val cyanConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.CYAN_CONCRETE)
+        cyanConcrete?.slab(ModBlock.CYAN_CONCRETE_SLAB)
+        cyanConcrete?.stairs(ModBlock.CYAN_CONCRETE_STAIRS)
+        cyanConcrete?.wall(ModBlock.CYAN_CONCRETE_WALL)
+
+        val purpleConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.PURPLE_CONCRETE)
+        purpleConcrete?.slab(ModBlock.PURPLE_CONCRETE_SLAB)
+        purpleConcrete?.stairs(ModBlock.PURPLE_CONCRETE_STAIRS)
+        purpleConcrete?.wall(ModBlock.PURPLE_CONCRETE_WALL)
+
+        val blueConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.BLUE_CONCRETE)
+        blueConcrete?.slab(ModBlock.BLUE_CONCRETE_SLAB)
+        blueConcrete?.stairs(ModBlock.BLUE_CONCRETE_STAIRS)
+        blueConcrete?.wall(ModBlock.BLUE_CONCRETE_WALL)
+
+        val brownConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.BROWN_CONCRETE)
+        brownConcrete?.slab(ModBlock.BROWN_CONCRETE_SLAB)
+        brownConcrete?.stairs(ModBlock.BROWN_CONCRETE_STAIRS)
+        brownConcrete?.wall(ModBlock.BROWN_CONCRETE_WALL)
+
+        val greenConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.GREEN_CONCRETE)
+        greenConcrete?.slab(ModBlock.GREEN_CONCRETE_SLAB)
+        greenConcrete?.stairs(ModBlock.GREEN_CONCRETE_STAIRS)
+        greenConcrete?.wall(ModBlock.GREEN_CONCRETE_WALL)
+
+        val redConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.RED_CONCRETE)
+        redConcrete?.slab(ModBlock.RED_CONCRETE_SLAB)
+        redConcrete?.stairs(ModBlock.RED_CONCRETE_STAIRS)
+        redConcrete?.wall(ModBlock.RED_CONCRETE_WALL)
+
+        val blackConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.BLACK_CONCRETE)
+        blackConcrete?.slab(ModBlock.BLACK_CONCRETE_SLAB)
+        blackConcrete?.stairs(ModBlock.BLACK_CONCRETE_STAIRS)
+        blackConcrete?.wall(ModBlock.BLACK_CONCRETE_WALL)
+
+        val magentaConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.MAGENTA_CONCRETE)
+        magentaConcrete?.slab(ModBlock.MAGENTA_CONCRETE_SLAB)
+        magentaConcrete?.stairs(ModBlock.MAGENTA_CONCRETE_STAIRS)
+        magentaConcrete?.wall(ModBlock.MAGENTA_CONCRETE_WALL)
+
+        val lightBlueConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.LIGHT_BLUE_CONCRETE)
+        lightBlueConcrete?.slab(ModBlock.LIGHT_BLUE_CONCRETE_SLAB)
+        lightBlueConcrete?.stairs(ModBlock.LIGHT_BLUE_CONCRETE_STAIRS)
+        lightBlueConcrete?.wall(ModBlock.LIGHT_BLUE_CONCRETE_WALL)
+
+        val yellowConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.YELLOW_CONCRETE)
+        yellowConcrete?.slab(ModBlock.YELLOW_CONCRETE_SLAB)
+        yellowConcrete?.stairs(ModBlock.YELLOW_CONCRETE_STAIRS)
+        yellowConcrete?.wall(ModBlock.YELLOW_CONCRETE_WALL)
+
+        val limeConcrete = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.LIME_CONCRETE)
+        limeConcrete?.slab(ModBlock.LIME_CONCRETE_SLAB)
+        limeConcrete?.stairs(ModBlock.LIME_CONCRETE_STAIRS)
+        limeConcrete?.wall(ModBlock.LIME_CONCRETE_WALL)
+
+
+
+
+
+
+
+
+
+
         val smoothQuartzWall = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.SMOOTH_QUARTZ)
         smoothQuartzWall?.wall(ModBlock.SMOOTH_QUARTZ_WALL)
 
@@ -149,6 +243,8 @@ class ModModelsProvider(output: FabricDataOutput?) : FabricModelProvider(output)
 
         val darkPrismarineWall = blockStateModelGenerator?.registerCubeAllModelTexturePool(Blocks.DARK_PRISMARINE)
         darkPrismarineWall?.wall(ModBlock.DARK_PRISMARINE_WALL)
+
+
         /*
         * 玻璃类型模型
         *

@@ -104,6 +104,43 @@ class ModBlockTagProvider(
             .add(ModBlock.GLOWSTONE_SLAB)
             .add(ModBlock.GLOWSTONE_STAIRS)
 
+            /*
+            * 混凝土方块
+            *
+            * */
+            .add(ModBlock.WHITE_CONCRETE_SLAB)
+            .add(ModBlock.WHITE_CONCRETE_STAIRS)
+            .add(ModBlock.ORANGE_CONCRETE_SLAB)
+            .add(ModBlock.ORANGE_CONCRETE_STAIRS)
+            .add(ModBlock.MAGENTA_CONCRETE_SLAB)
+            .add(ModBlock.MAGENTA_CONCRETE_STAIRS)
+            .add(ModBlock.LIGHT_BLUE_CONCRETE_SLAB)
+            .add(ModBlock.LIGHT_BLUE_CONCRETE_STAIRS)
+            .add(ModBlock.YELLOW_CONCRETE_SLAB)
+            .add(ModBlock.YELLOW_CONCRETE_STAIRS)
+            .add(ModBlock.LIME_CONCRETE_SLAB)
+            .add(ModBlock.LIME_CONCRETE_STAIRS)
+            .add(ModBlock.PINK_CONCRETE_SLAB)
+            .add(ModBlock.PINK_CONCRETE_STAIRS)
+            .add(ModBlock.GRAY_CONCRETE_SLAB)
+            .add(ModBlock.GRAY_CONCRETE_STAIRS)
+            .add(ModBlock.LIGHT_GRAY_CONCRETE_SLAB)
+            .add(ModBlock.LIGHT_GRAY_CONCRETE_STAIRS)
+            .add(ModBlock.CYAN_CONCRETE_SLAB)
+            .add(ModBlock.CYAN_CONCRETE_STAIRS)
+            .add(ModBlock.PURPLE_CONCRETE_SLAB)
+            .add(ModBlock.PURPLE_CONCRETE_STAIRS)
+            .add(ModBlock.BLUE_CONCRETE_SLAB)
+            .add(ModBlock.BLUE_CONCRETE_STAIRS)
+            .add(ModBlock.BROWN_CONCRETE_SLAB)
+            .add(ModBlock.BROWN_CONCRETE_STAIRS)
+            .add(ModBlock.GREEN_CONCRETE_SLAB)
+            .add(ModBlock.GREEN_CONCRETE_STAIRS)
+            .add(ModBlock.RED_CONCRETE_SLAB)
+            .add(ModBlock.RED_CONCRETE_STAIRS)
+            .add(ModBlock.BLACK_CONCRETE_SLAB)
+            .add(ModBlock.BLACK_CONCRETE_STAIRS)
+
 
             /*
             * 羊毛类
@@ -220,6 +257,22 @@ class ModBlockTagProvider(
             .add(ModBlock.DARK_PRISMARINE_WALL)
             .add(ModBlock.PURPUR_BLOCK_WALL)
             .add(ModBlock.PRISMARINE_BRICKS_WALL)
+            .add(ModBlock.WHITE_CONCRETE_WALL)
+            .add(ModBlock.ORANGE_CONCRETE_WALL)
+            .add(ModBlock.MAGENTA_CONCRETE_WALL)
+            .add(ModBlock.LIGHT_BLUE_CONCRETE_WALL)
+            .add(ModBlock.YELLOW_CONCRETE_WALL)
+            .add(ModBlock.LIME_CONCRETE_WALL)
+            .add(ModBlock.PINK_CONCRETE_WALL)
+            .add(ModBlock.GRAY_CONCRETE_WALL)
+            .add(ModBlock.LIGHT_GRAY_CONCRETE_WALL)
+            .add(ModBlock.CYAN_CONCRETE_WALL)
+            .add(ModBlock.PURPLE_CONCRETE_WALL)
+            .add(ModBlock.BLUE_CONCRETE_WALL)
+            .add(ModBlock.BROWN_CONCRETE_WALL)
+            .add(ModBlock.GREEN_CONCRETE_WALL)
+            .add(ModBlock.RED_CONCRETE_WALL)
+            .add(ModBlock.BLACK_CONCRETE_WALL)
     }
 
 }

@@ -132,6 +132,87 @@ object ModItemGroup {
                 entries.add(ModBlock.BLACK_WOOL_SLAB)
                 entries.add(ModBlock.BLACK_WOOL_WALL)
 
+                /*
+                * 混凝土方块
+                *
+                * */
+                entries.add(ModBlock.WHITE_CONCRETE_STAIRS)
+                entries.add(ModBlock.WHITE_CONCRETE_SLAB)
+                entries.add(ModBlock.WHITE_CONCRETE_WALL)
+
+                entries.add(ModBlock.ORANGE_CONCRETE_STAIRS)
+                entries.add(ModBlock.ORANGE_CONCRETE_SLAB)
+                entries.add(ModBlock.ORANGE_CONCRETE_WALL)
+
+                entries.add(ModBlock.MAGENTA_CONCRETE_STAIRS)
+                entries.add(ModBlock.MAGENTA_CONCRETE_SLAB)
+                entries.add(ModBlock.MAGENTA_CONCRETE_WALL)
+
+                entries.add(ModBlock.PURPLE_CONCRETE_STAIRS)
+                entries.add(ModBlock.PURPLE_CONCRETE_SLAB)
+                entries.add(ModBlock.PURPLE_CONCRETE_WALL)
+
+                entries.add(ModBlock.LIGHT_BLUE_CONCRETE_STAIRS)
+                entries.add(ModBlock.LIGHT_BLUE_CONCRETE_SLAB)
+                entries.add(ModBlock.LIGHT_BLUE_CONCRETE_WALL)
+
+                entries.add(ModBlock.YELLOW_CONCRETE_STAIRS)
+                entries.add(ModBlock.YELLOW_CONCRETE_SLAB)
+                entries.add(ModBlock.YELLOW_CONCRETE_WALL)
+
+                entries.add(ModBlock.LIME_CONCRETE_STAIRS)
+                entries.add(ModBlock.LIME_CONCRETE_SLAB)
+                entries.add(ModBlock.LIME_CONCRETE_WALL)
+
+                entries.add(ModBlock.PINK_CONCRETE_STAIRS)
+                entries.add(ModBlock.PINK_CONCRETE_SLAB)
+                entries.add(ModBlock.PINK_CONCRETE_WALL)
+
+                entries.add(ModBlock.GRAY_CONCRETE_STAIRS)
+                entries.add(ModBlock.GRAY_CONCRETE_SLAB)
+                entries.add(ModBlock.GRAY_CONCRETE_WALL)
+
+                entries.add(ModBlock.LIGHT_GRAY_CONCRETE_STAIRS)
+                entries.add(ModBlock.LIGHT_GRAY_CONCRETE_SLAB)
+                entries.add(ModBlock.LIGHT_GRAY_CONCRETE_WALL)
+
+                entries.add(ModBlock.CYAN_CONCRETE_STAIRS)
+                entries.add(ModBlock.CYAN_CONCRETE_SLAB)
+                entries.add(ModBlock.CYAN_CONCRETE_WALL)
+
+                entries.add(ModBlock.BLUE_CONCRETE_STAIRS)
+                entries.add(ModBlock.BLUE_CONCRETE_SLAB)
+                entries.add(ModBlock.BLUE_CONCRETE_WALL)
+
+                entries.add(ModBlock.BROWN_CONCRETE_STAIRS)
+                entries.add(ModBlock.BROWN_CONCRETE_SLAB)
+                entries.add(ModBlock.BROWN_CONCRETE_WALL)
+
+                entries.add(ModBlock.GREEN_CONCRETE_STAIRS)
+                entries.add(ModBlock.GREEN_CONCRETE_SLAB)
+                entries.add(ModBlock.GREEN_CONCRETE_WALL)
+
+                entries.add(ModBlock.RED_CONCRETE_STAIRS)
+                entries.add(ModBlock.RED_CONCRETE_SLAB)
+                entries.add(ModBlock.RED_CONCRETE_WALL)
+
+                entries.add(ModBlock.BLACK_CONCRETE_STAIRS)
+                entries.add(ModBlock.BLACK_CONCRETE_SLAB)
+                entries.add(ModBlock.BLACK_CONCRETE_WALL)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 /*
                 * 陶瓦方块
@@ -183,11 +264,7 @@ object ModItemGroup {
 
                 entries.add(ModBlock.PURPLE_TERRACOTTA_STAIRS)
                 entries.add(ModBlock.PURPLE_TERRACOTTA_SLAB)
-
                 entries.add(ModBlock.PURPLE_TERRACOTTA_WALL)
-                entries.add(ModBlock.BLUE_TERRACOTTA_STAIRS)
-                entries.add(ModBlock.BLUE_TERRACOTTA_SLAB)
-                entries.add(ModBlock.BLUE_TERRACOTTA_WALL)
 
                 entries.add(ModBlock.BROWN_TERRACOTTA_STAIRS)
                 entries.add(ModBlock.BROWN_TERRACOTTA_SLAB)

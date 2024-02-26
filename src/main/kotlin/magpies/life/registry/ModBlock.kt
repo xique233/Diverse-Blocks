@@ -285,6 +285,191 @@ object ModBlock {
     )
     val BLACK_WOOL_WALL = registerBlocks("black_wool_wall", WallBlock(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)))
 
+    /*
+    * 混凝土方块
+    *
+    * */
+
+    val WHITE_CONCRETE_SLAB =
+        registerBlocks("white_concrete_slab", SlabBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE)))
+    val WHITE_CONCRETE_STAIRS = registerBlocks(
+        "white_concrete_stairs",
+        StairsBlock(Blocks.WHITE_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE))
+    )
+    val WHITE_CONCRETE_WALL = registerBlocks(
+        "white_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.WHITE_CONCRETE))
+    )
+
+    val ORANGE_CONCRETE_SLAB =
+        registerBlocks("orange_concrete_slab", SlabBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE)))
+
+    val ORANGE_CONCRETE_STAIRS = registerBlocks(
+        "orange_concrete_stairs",
+        StairsBlock(Blocks.ORANGE_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE))
+    )
+    val ORANGE_CONCRETE_WALL = registerBlocks(
+        "orange_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.ORANGE_CONCRETE))
+    )
+    val MAGENTA_CONCRETE_SLAB =
+        registerBlocks("magenta_concrete_slab", SlabBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE)))
+    val MAGENTA_CONCRETE_STAIRS = registerBlocks(
+        "magenta_concrete_stairs",
+        StairsBlock(Blocks.MAGENTA_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE))
+    )
+    val MAGENTA_CONCRETE_WALL = registerBlocks(
+        "magenta_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.MAGENTA_CONCRETE))
+    )
+    val LIGHT_BLUE_CONCRETE_SLAB =
+        registerBlocks("light_blue_concrete_slab", SlabBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE)))
+    val LIGHT_BLUE_CONCRETE_STAIRS = registerBlocks(
+        "light_blue_concrete_stairs",
+        StairsBlock(Blocks.LIGHT_BLUE_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE))
+    )
+    val LIGHT_BLUE_CONCRETE_WALL = registerBlocks(
+        "light_blue_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_BLUE_CONCRETE))
+    )
+    val YELLOW_CONCRETE_SLAB =
+        registerBlocks("yellow_concrete_slab", SlabBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE)))
+    val YELLOW_CONCRETE_STAIRS = registerBlocks(
+        "yellow_concrete_stairs",
+        StairsBlock(Blocks.YELLOW_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE))
+    )
+    val YELLOW_CONCRETE_WALL = registerBlocks(
+        "yellow_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.YELLOW_CONCRETE))
+    )
+    val LIME_CONCRETE_SLAB = registerBlocks("lime_concrete_slab", SlabBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE)))
+    val LIME_CONCRETE_STAIRS = registerBlocks(
+        "lime_concrete_stairs",
+        StairsBlock(Blocks.LIME_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE))
+    )
+    val LIME_CONCRETE_WALL = registerBlocks(
+        "lime_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.LIME_CONCRETE))
+    )
+    val PINK_CONCRETE_SLAB = registerBlocks("pink_concrete_slab", SlabBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE)))
+    val PINK_CONCRETE_STAIRS = registerBlocks(
+        "pink_concrete_stairs",
+        StairsBlock(Blocks.PINK_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE))
+    )
+    val PINK_CONCRETE_WALL = registerBlocks(
+        "pink_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.PINK_CONCRETE))
+    )
+    val GRAY_CONCRETE_SLAB = registerBlocks(
+        "gray_concrete_slab",
+        SlabBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE))
+    )
+    val GRAY_CONCRETE_STAIRS = registerBlocks(
+        "gray_concrete_stairs",
+        StairsBlock(Blocks.GRAY_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE))
+    )
+    val GRAY_CONCRETE_WALL = registerBlocks(
+        "gray_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.GRAY_CONCRETE))
+    )
+    val LIGHT_GRAY_CONCRETE_SLAB = registerBlocks(
+        "light_gray_concrete_slab",
+        SlabBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE).nonOpaque())
+    )
+    val LIGHT_GRAY_CONCRETE_STAIRS = registerBlocks(
+        "light_gray_concrete_stairs",
+        StairsBlock(Blocks.LIGHT_GRAY_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE))
+    )
+    val LIGHT_GRAY_CONCRETE_WALL = registerBlocks(
+        "light_gray_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.LIGHT_GRAY_CONCRETE))
+    )
+    val CYAN_CONCRETE_SLAB = registerBlocks(
+        "cyan_concrete_slab",
+        SlabBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE).nonOpaque())
+    )
+    val CYAN_CONCRETE_STAIRS = registerBlocks(
+        "cyan_concrete_stairs",
+        StairsBlock(Blocks.CYAN_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE))
+    )
+    val CYAN_CONCRETE_WALL = registerBlocks(
+        "cyan_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.CYAN_CONCRETE))
+    )
+    val PURPLE_CONCRETE_SLAB = registerBlocks(
+        "purple_concrete_slab",
+        SlabBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE).nonOpaque())
+    )
+    val PURPLE_CONCRETE_STAIRS = registerBlocks(
+        "purple_concrete_stairs",
+        StairsBlock(Blocks.PURPLE_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE))
+    )
+    val PURPLE_CONCRETE_WALL = registerBlocks(
+        "purple_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.PURPLE_CONCRETE))
+    )
+    val BLUE_CONCRETE_SLAB = registerBlocks(
+        "blue_concrete_slab",
+        SlabBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE).nonOpaque())
+    )
+    val BLUE_CONCRETE_STAIRS = registerBlocks(
+        "blue_concrete_stairs",
+        StairsBlock(Blocks.BLUE_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE))
+    )
+    val BLUE_CONCRETE_WALL = registerBlocks(
+        "blue_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.BLUE_CONCRETE))
+    )
+    val BROWN_CONCRETE_SLAB = registerBlocks(
+        "brown_concrete_slab",
+        SlabBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE).nonOpaque())
+    )
+    val BROWN_CONCRETE_STAIRS = registerBlocks(
+        "brown_concrete_stairs",
+        StairsBlock(Blocks.BROWN_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE))
+    )
+    val BROWN_CONCRETE_WALL = registerBlocks(
+        "brown_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.BROWN_CONCRETE))
+    )
+    val GREEN_CONCRETE_SLAB = registerBlocks(
+        "green_concrete_slab",
+        SlabBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE).nonOpaque())
+    )
+    val GREEN_CONCRETE_STAIRS = registerBlocks(
+        "green_concrete_stairs",
+        StairsBlock(Blocks.GREEN_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE))
+    )
+    val GREEN_CONCRETE_WALL = registerBlocks(
+        "green_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.GREEN_CONCRETE))
+    )
+    val RED_CONCRETE_SLAB = registerBlocks(
+        "red_concrete_slab",
+        SlabBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE).nonOpaque())
+    )
+    val RED_CONCRETE_STAIRS = registerBlocks(
+        "red_concrete_stairs",
+        StairsBlock(Blocks.RED_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.RED_CONCRETE))
+    )
+    val RED_CONCRETE_WALL = registerBlocks(
+        "red_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.RED_CONCRETE))
+    )
+    val BLACK_CONCRETE_SLAB = registerBlocks(
+        "black_concrete_slab",
+        SlabBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE).nonOpaque())
+    )
+    val BLACK_CONCRETE_STAIRS = registerBlocks(
+        "black_concrete_stairs",
+        StairsBlock(Blocks.BLACK_CONCRETE.defaultState, FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE))
+    )
+    val BLACK_CONCRETE_WALL = registerBlocks(
+        "black_concrete_wall",
+        WallBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE))
+    )
+
+
 
     /*
     * 玻璃方块

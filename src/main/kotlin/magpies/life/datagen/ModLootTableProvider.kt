@@ -200,6 +200,100 @@ class ModLootTableProvider(dataOutput: FabricDataOutput?) : FabricBlockLootTable
         addDrop(ModBlock.BLACK_WOOL_WALL)
 
         /*
+        * 混凝土方块
+        *
+        * */
+        addDrop(ModBlock.WHITE_CONCRETE_STAIRS)
+        addDrop(ModBlock.WHITE_CONCRETE_SLAB, slabDrops(ModBlock.WHITE_CONCRETE_SLAB))
+        addDrop(ModBlock.WHITE_CONCRETE_WALL)
+
+        addDrop(ModBlock.ORANGE_CONCRETE_STAIRS)
+        addDrop(ModBlock.ORANGE_CONCRETE_SLAB, slabDrops(ModBlock.ORANGE_CONCRETE_SLAB))
+        addDrop(ModBlock.ORANGE_CONCRETE_WALL)
+
+        addDrop(ModBlock.MAGENTA_CONCRETE_STAIRS)
+        addDrop(ModBlock.MAGENTA_CONCRETE_SLAB, slabDrops(ModBlock.MAGENTA_CONCRETE_SLAB))
+        addDrop(ModBlock.MAGENTA_CONCRETE_WALL)
+
+        addDrop(ModBlock.LIGHT_BLUE_CONCRETE_STAIRS)
+        addDrop(ModBlock.LIGHT_BLUE_CONCRETE_SLAB, slabDrops(ModBlock.LIGHT_BLUE_CONCRETE_SLAB))
+        addDrop(ModBlock.LIGHT_BLUE_CONCRETE_WALL)
+
+        addDrop(ModBlock.YELLOW_CONCRETE_STAIRS)
+        addDrop(ModBlock.YELLOW_CONCRETE_SLAB, slabDrops(ModBlock.YELLOW_CONCRETE_SLAB))
+        addDrop(ModBlock.YELLOW_CONCRETE_WALL)
+
+        addDrop(ModBlock.LIME_CONCRETE_STAIRS)
+        addDrop(ModBlock.LIME_CONCRETE_SLAB, slabDrops(ModBlock.LIME_CONCRETE_SLAB))
+        addDrop(ModBlock.LIME_CONCRETE_WALL)
+
+        addDrop(ModBlock.PINK_CONCRETE_STAIRS)
+        addDrop(ModBlock.PINK_CONCRETE_SLAB, slabDrops(ModBlock.PINK_CONCRETE_SLAB))
+        addDrop(ModBlock.PINK_CONCRETE_WALL)
+
+        addDrop(ModBlock.GRAY_CONCRETE_STAIRS)
+        addDrop(ModBlock.GRAY_CONCRETE_SLAB, slabDrops(ModBlock.GRAY_CONCRETE_SLAB))
+        addDrop(ModBlock.GRAY_CONCRETE_WALL)
+
+        addDrop(ModBlock.LIGHT_GRAY_CONCRETE_STAIRS)
+        addDrop(ModBlock.LIGHT_GRAY_CONCRETE_SLAB, slabDrops(ModBlock.LIGHT_GRAY_CONCRETE_SLAB))
+        addDrop(ModBlock.LIGHT_GRAY_CONCRETE_WALL)
+
+        addDrop(ModBlock.CYAN_CONCRETE_STAIRS)
+        addDrop(ModBlock.CYAN_CONCRETE_SLAB, slabDrops(ModBlock.CYAN_CONCRETE_SLAB))
+        addDrop(ModBlock.CYAN_CONCRETE_WALL)
+
+        addDrop(ModBlock.PURPLE_CONCRETE_STAIRS)
+        addDrop(ModBlock.PURPLE_CONCRETE_SLAB, slabDrops(ModBlock.PURPLE_CONCRETE_SLAB))
+        addDrop(ModBlock.PURPLE_CONCRETE_WALL)
+
+        addDrop(ModBlock.BLUE_CONCRETE_STAIRS)
+        addDrop(ModBlock.BLUE_CONCRETE_SLAB, slabDrops(ModBlock.BLUE_CONCRETE_SLAB))
+        addDrop(ModBlock.BLUE_CONCRETE_WALL)
+
+        addDrop(ModBlock.BROWN_CONCRETE_STAIRS)
+        addDrop(ModBlock.BROWN_CONCRETE_SLAB, slabDrops(ModBlock.BROWN_CONCRETE_SLAB))
+        addDrop(ModBlock.BROWN_CONCRETE_WALL)
+
+        addDrop(ModBlock.GREEN_CONCRETE_STAIRS)
+        addDrop(ModBlock.GREEN_CONCRETE_SLAB, slabDrops(ModBlock.GREEN_CONCRETE_SLAB))
+        addDrop(ModBlock.GREEN_CONCRETE_WALL)
+
+        addDrop(ModBlock.RED_CONCRETE_STAIRS)
+        addDrop(ModBlock.RED_CONCRETE_SLAB, slabDrops(ModBlock.RED_CONCRETE_SLAB))
+        addDrop(ModBlock.RED_CONCRETE_WALL)
+
+        addDrop(ModBlock.BLACK_CONCRETE_STAIRS)
+        addDrop(ModBlock.BLACK_CONCRETE_SLAB, slabDrops(ModBlock.BLACK_CONCRETE_SLAB))
+        addDrop(ModBlock.BLACK_CONCRETE_WALL)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
         * 玻璃类型掉落表
         *
         * */
